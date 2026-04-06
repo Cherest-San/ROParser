@@ -1,0 +1,20 @@
+{
+    "PE_targets": [
+        {
+            "PE_path": "testcase/programs/pe/demo-payloads/programs/Yadegari-SP15/matrix-mult-rop/ROPMatrixMult.exe"
+        }, 
+        {
+            "PE_path": "testcase/programs/pe/demo-payloads/programs/Yadegari-SP15/MSVCRT.DLL"
+        },
+        {
+            "PE_path": "testcase/programs/pe/demo-payloads/programs/Yadegari-SP15/ntdll.dll"
+        }
+    ],
+    "functions": [
+		{
+			"name": "func1",
+			"begin": 4203236,
+			"end": 4206400
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+    "PE_targets": [
+        {
+            "PE_path": "testcase/programs/pe/demo-payloads/programs/Yadegari-SP15/bubble-sort-rop/ROPBubbleSort.exe"
+        }, 
+        {
+            "PE_path": "testcase/programs/pe/demo-payloads/programs/Yadegari-SP15/MSVCRT.DLL"
+        }, 
+        {
+            "PE_path": "testcase/programs/pe/demo-payloads/programs/Yadegari-SP15/ntdll.dll"
+        }
+    ], 
+	"functions": [
+		{
+			"name": "func1",
+			"begin": 4203164,
+			"end": 4204544,
+			"replace": {
+				"0x12fa04": 56,
+				"0x12fab8": 1372,
+				"0x12fac0": 1244,
+				"0x12fb3c": 1112,
+				"0x12fbc4": 280,
+				"0x12fcc8": 232,
+				"0x12fcf4": 536,
+				"0x12ff3c": 1308
+			}
+		}
+	]
+}
